@@ -36,7 +36,9 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4"
+    "@babel/preset-react": "^7.10.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   },
   "babel": {
     "presets": [
@@ -46,5 +48,10 @@
     "plugins": [
       "@babel/plugin-proposal-class-properties"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
